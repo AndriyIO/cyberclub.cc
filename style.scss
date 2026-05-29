@@ -1,0 +1,901 @@
+@import 'reset';
+
+
+@mixin flex($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin transform($property){
+    transform: $property;
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    -o-transform: $property;
+}
+
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    //@include flex(column, center , center );
+    // background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
+    // background-size: cover;
+    // background-position: center;
+     font-family: 'Orbitron', sans-serif;
+     font-size: 14px;
+
+
+.header{
+    width: 100%;
+    height: 20vh;
+    //background-color: orange;
+    @include flex(row, space-around, center);
+    padding: 0 100px;
+
+    .nav{
+        .s1{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+        .s2{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+        .s3{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+        .s4{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+        .s5{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+        .s6{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+        .s7{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+        .s8{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+        .s9{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+        .s10{
+            &:hover{
+        color: #FFBF00;
+     }
+        }
+
+    }
+
+.logo{
+    background-image: url(./img/icon1.png);
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 100px;
+     
+}
+
+.name{
+    color: aliceblue;
+    
+}
+.nav span{
+    margin: 0 20px;
+}
+
+.prapor{
+    width: 19px;
+    height: 14px;
+    background-color: aqua;
+
+.blue{
+    width: 19px;
+    height: 7px;
+    background-color: blue;
+}
+
+.yellow{
+    width: 19px;
+    height: 7px;
+    background-color: yellow;
+}
+
+}
+
+
+}
+
+.homepage{
+    width: 100%;
+    min-height: 100vh;
+    // max-width: 1100px;
+    // height: 600px;
+    //background-color: aquamarine;
+    @include flex(row, center , center );
+    background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
+    background-size: cover;
+    background-position: center;
+
+    .box1{
+        width: 500px;
+        height: 480px;
+        //background-color: orange;
+        margin: 0 20px;
+
+        .picture{
+            width: 500px;
+            height: 480px;
+            background-image: url(./img/img3.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+    }
+
+    .box2{
+        width: 500px;
+        height: 360px;
+        //background-color: palegreen;
+        @include flex(row, center ,center );
+
+        .text1:hover{
+            color: #FFBF00;
+        }
+        
+    }
+
+
+    
+}
+
+.tournamnet{
+    width: 100%;
+    min-height: 100vh;
+    @include flex(column, center, center);
+    background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
+    background-size: cover;
+    background-position: center;
+
+    .box3{
+        width: 1400px;
+        height: 700px;
+        //background-color: aqua;
+        @include flex(row, space-around ,center );
+
+        .tour1{
+            width:650px;
+            height: 580px;
+            //background-color: aqua;
+            @include flex(row, center, center );
+            border: solid purple;
+            border-radius: 5px;
+
+        .picture2{
+            width: 520px;
+            height: 395px;
+            //background-color: bisque;
+            background-image: url(./img/img5.jpg);
+            background-position: center;
+            background-size: cover;
+            // margin: 0 20px;
+        }
+        .text2{
+            width: 500px;
+            height: 580px;
+            //background-color: pink;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+             .t1:hover{
+            color: #FFBF00;
+        }
+        }
+
+            }
+
+            .tour2{
+            width: 650px;
+            height: 580px;
+            //background-color: rgb(0, 255, 42);
+            @include flex(row, center, center );
+            border: solid purple;
+            border-radius: 5px;
+
+             .picture21{
+            width: 520px;
+            height: 395px;
+            //background-color: bisque;
+            background-image: url(./img/турнір\ 2.jpg);
+            background-position: center;
+            background-size: cover;
+            // margin: 0 20px;
+        }
+        .text21{
+            width: 500px;
+            height: 580px;
+            //background-color: rgb(255, 240, 192);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+             .t1:hover{
+            color: #FFBF00;
+        }
+        }
+            }
+
+    }
+
+}
+
+
+.contacts{
+    width: 100%;
+    min-height: 100vh;
+    @include flex(column, center ,center );
+    background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
+    background-size: cover;
+    background-position: center;
+
+    .t1:hover{
+            color: #FFBF00;
+        }
+    
+
+    .box4{
+        width: 1200px;
+        height: 700px;
+        @include flex(row, center ,center );
+        //background-color: aquamarine;
+
+        .info{
+            width: 600px;
+            height: 500px;
+            //background-color: purple;
+            @include flex(column, space-around ,center );
+        }
+
+        .maps{
+            width: 600px;
+            height: 500px;
+        //background-color: aqua;     
+       }
+    }
+}
+
+.takepalce{
+    width: 100%;
+    min-height: 100vh;
+    @include flex(column, center , center );
+    background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
+    background-size: cover;
+    background-position: center;
+
+    .box5{
+        width: 1000px;
+        height: 650px;
+        //background-color: aquamarine;
+        @include flex(column, center , center );
+
+        .tabel{
+            width: 600px;
+           height: 300px;
+            background-color: rgb(63, 61, 61);
+            border-radius: 5px;
+            border: solid red;
+            @include flex(column, space-around , center );
+
+            .linestandart{
+                width: 570px;
+                height: 70px;
+                //background-color: orangered;
+                @include flex(row, space-around , center );
+                .bt1{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        //background-color: red;
+                        border-radius: 5px;
+                        color: #f35308;
+                        
+                    }
+                }
+                .bt2{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        background-color: red;
+                        border-radius: 5px;
+                    }
+                }
+                .bt3{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        background-color: red;
+                        border-radius: 5px;
+                    }
+                }
+
+                .bt4{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        background-color: red;
+                        border-radius: 5px;
+                    }
+                }
+
+                .bt5{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        background-color: red;
+                        border-radius: 5px;
+                    }
+                }
+
+
+            }
+            .linepro{
+                width: 570px;
+                height: 70px;
+                //background-color: greenyellow;
+                @include flex(row, space-around , center );
+
+                .bt6{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        background-color: red;
+                        border-radius: 5px;
+                    }
+                }
+                .bt7{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        background-color: red;
+                        border-radius: 5px;
+                    }
+                }
+                .bt8{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        background-color: red;
+                        border-radius: 5px;
+                    }
+                }
+
+                .bt9{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        background-color: red;
+                        border-radius: 5px;
+                    }
+                }
+
+                .bt10{
+                    .butn{
+                        width: 50px;
+                        height: 50px;
+                        background-color: red;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.news{
+    width: 100%;
+    min-height: 100vh;
+    @include flex(column, center , center );
+    background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
+    background-size: cover;
+    background-position: center;
+
+
+    .box5{
+        width: 1100px;
+        height: 680px;
+        //background-color: #f35308;
+        @include flex(column, space-around , center );
+
+        .line1{
+            width: 1050px;
+            height: 330px;
+            //background-color: pink;
+             @include flex(row, space-around , center );
+
+            .new1{
+                width: 300px;
+                height: 300px;
+                //background-color: purple;
+                border: solid 0.1px rgb(126, 4, 126);
+                border-radius: 5px;
+                @include flex( column, center , center );
+                .picture3{
+                    width: 300px;
+                    height: 210px;
+                    background-image: url(./img/img9.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .info2{
+                    width: 300px;
+                    height: 90px;
+                    //background-color: #FFBF00;
+                    @include flex(column, space-around , center );
+
+                    .text4{
+                        @include flex(row, center , center );
+                    }
+                    .boxmin1{
+                        width: 300px;
+                        height: 30px;
+                        //background-color: aquamarine;
+                        @include flex(row, space-around , center );
+                    }
+            
+                }
+
+            }
+             .new2{
+                width: 300px;
+                height: 300px;
+                //background-color: rgb(42, 128, 106);
+                border: solid 0.1px rgb(126, 4, 126);
+                border-radius: 5px;
+                @include flex( column, center , center );
+                .picture4{
+                    width: 300px;
+                    height: 210px;
+                    background-image: url(./img/img8.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .info3{
+                    width: 300px;
+                    height: 90px;
+                    //background-color: #FFBF00;
+                    @include flex(column, space-around , center );
+
+                    .text5{
+                        @include flex(row, center , center );
+                    }
+                    .boxmin2{
+                        width: 300px;
+                        height: 30px;
+                        //background-color: aquamarine;
+                        @include flex(row, space-around , center );
+                    }
+            
+                }
+            }
+             .new3{
+                width: 300px;
+                height: 300px;
+                //background-color: rgb(107, 199, 79);
+                border: solid 0.1px rgb(126, 4, 126);
+                border-radius: 5px;
+                @include flex( column, center , center );
+
+                .picture5{
+                    width: 300px;
+                    height: 210px;
+                    background-image: url(./img/img10.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .info4{
+                    width: 300px;
+                    height: 90px;
+                    //background-color: #FFBF00;
+                    @include flex(column, space-around , center );
+
+                    .text6{
+                        @include flex(row, center , center );
+                    }
+                    .boxmin3{
+                        width: 300px;
+                        height: 30px;
+                        //background-color: aquamarine;
+                        @include flex(row, space-around , center );
+                    }
+            
+                }
+
+
+
+            }
+
+            
+        }
+        .line2{
+            width: 1050px;
+            height: 330px;
+            //background-color: pink;
+             @include flex(row, space-around , center );
+
+            .new4{
+                width: 300px;
+                height: 300px;
+                //background-color: rgb(166, 190, 25);
+                border: solid 0.1px rgb(126, 4, 126);
+                border-radius: 5px;
+                @include flex( column, center , center );
+                    
+                .picture6{
+                    width: 300px;
+                    height: 210px;
+                    background-image: url(./img/img11.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                  .info5{
+                    width: 300px;
+                    height: 90px;
+                    //background-color: #FFBF00;
+                    @include flex(column, space-around , center );
+
+                    .text7{
+                        @include flex(row, center , center );
+                    }
+                    .boxmin4{
+                        width: 300px;
+                        height: 30px;
+                        //background-color: aquamarine;
+                        @include flex(row, space-around , center );
+                    }
+            
+                }
+
+            }
+             .new5{
+                width: 300px;
+                height: 300px;
+                //background-color: rgb(107, 235, 156);
+                border: solid 0.1px rgb(126, 4, 126);
+                border-radius: 5px;
+                @include flex( column, center , center );
+
+                .picture7{
+                    width: 300px;
+                    height: 210px;
+                    background-image: url(./img/img12.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .info6{
+                    width: 300px;
+                    height: 90px;
+                    //background-color: #FFBF00;
+                    @include flex(column, space-around , center );
+
+                    .text8{
+                        @include flex(row, center , center );
+                    }
+                    .boxmin5{
+                        width: 300px;
+                        height: 30px;
+                        //background-color: aquamarine;
+                        @include flex(row, space-around , center );
+                    }
+            
+                }
+
+
+            }
+             .new6{
+                width: 300px;
+                height: 300px;
+                //background-color: rgb(122, 95, 44);
+                border: solid 0.1px rgb(126, 4, 126);
+                border-radius: 5px;
+                @include flex( column, center , center );
+
+                .picture8{
+                    width: 300px;
+                    height: 210px;
+                    background-image: url(./img/img13.jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                .info7{
+                    width: 300px;
+                    height: 90px;
+                    //background-color: #FFBF00;
+                    @include flex(column, space-around , center );
+
+                    .text9{
+                        @include flex(row, center , center );
+                    }
+                    .boxmin6{
+                        width: 300px;
+                        height: 30px;
+                        //background-color: aquamarine;
+                        @include flex(row, space-around , center );
+                    }
+            
+                }
+
+            }
+        }
+    }
+}
+.courses{
+    width: 100%;
+    min-height: 100vh;
+    @include flex(column, center , center );
+    background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
+    background-size: cover;
+    background-position: center;
+
+    .box6{
+        width: 900px;
+        height: 700px;
+        @include flex(row, center , center );
+       
+
+        .picture9{
+            width: 700px;
+            height: 700px;
+            background-image: url(./img/img4.jpg);
+            background-position: center;
+            background-size: cover;
+
+        }
+    }
+}
+
+.games{
+    width: 100%;
+    min-height: 100vh;
+    @include flex(column, center , center );
+    background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
+    background-size: cover;
+    background-position: center;
+
+    .box7{
+        width: 1100px;
+        height: 690px;
+        //background-color: teal;
+        @include flex(column, space-around , center );
+
+        .gameline1{
+            width: 1000px;
+            height: 300px;
+            //background-color: rosybrown;
+            @include flex(row, space-around , center );
+
+            .picture10{
+                width: 230px;
+                height: 280px;
+                background-color: rebeccapurple;
+                background-image: url(https://myhotposters.com/cdn/shop/products/mL4466_1024x1024.jpg?v=1748533543);
+                background-position: center;
+                background-size: contain;
+            }
+              .picture11{
+               width: 230px;
+                height: 280px;
+                background-color: rgb(80, 235, 126);
+                background-image: url(https://e.snmc.io/lk/f/x/0f9ef5e38cd87aa94d22ed5185978948/7295201);
+                background-position: center;
+                background-size: cover;
+            }
+              .picture12{
+               width: 230px;
+                height: 280px;
+                background-color: rgb(195, 204, 64);
+                background-image: url(https://i.ebayimg.com/images/g/rKYAAOSwqY5fhrmq/s-l1200.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+              .picture13{
+               width: 230px;
+                height: 280px;
+                background-color: rgb(221, 70, 176);
+                background-image: url(https://upload.wikimedia.org/wikipedia/uk/5/58/CounterStrike2.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+
+
+        }
+
+        .gameline2{
+           width: 1000px;
+            height: 300px;
+            //background-color: lawngreen;
+            @include flex(row, space-around , center );
+
+            .picture14{
+                width: 230px;
+                height: 280px;
+                background-color: rgb(233, 105, 19);
+                background-image: url(https://e2zstore.com/wp-content/uploads/2018/11/playerunknowns-battlegrounds-pubg-pc.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+              .picture15{
+               width: 230px;
+                height: 280px;
+                background-color: rgb(80, 217, 235);
+                background-image: url(https://upload.wikimedia.org/wikipedia/uk/e/ec/S.T.A.L.K.E.R._2_Heart_of_Chornobyl.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+              .picture16{
+               width: 230px;
+                height: 280px;
+                background-color: rgb(204, 64, 146);
+                background-image: url(https://store-images.s-microsoft.com/image/apps.60845.14424944744967123.13406604-2546-43b0-a0ef-042d5620c726.ffc7df05-3e9b-459f-9d6b-e8e2abde3e2d);
+                background-position: center;
+                background-size: contain;
+            }
+              .picture17{
+               width: 230px;
+                height: 280px;
+                background-color: rgb(65, 78, 4);
+                background-image: url(https://m.media-amazon.com/images/I/61500SrmfWS.jpg);
+                background-position: center;
+                background-size: contain;
+            }
+
+        }
+    }
+
+}
+.price{
+    width: 100%;
+    min-height: 100vh;
+    @include flex(column, center , center );
+    background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
+    background-size: cover;
+    background-position: center;
+    
+    .box8{
+        width: 1300px;
+        height: 350px;
+        //background-color: pink;
+        @include flex(row, center , center );
+
+        .table-container{
+            // width: 100%;
+             overflow-x: auto;
+            // padding: 30px;
+            // color: #ffff;
+            color: #FFBF00;
+
+            .table-container table {
+            width: 90%;
+            border-collapse: collapse;
+}
+
+.table-container table thead {
+  text-transform: uppercase;
+}
+
+.table-container th, td {
+  border: none;
+  padding: 8px;
+  border-bottom: 1px solid white;
+}
+
+
+        }
+    }
+
+    .box9{
+        width: 1300px;
+        height: 350px;
+        //background-color: rgb(128, 105, 0);
+        @include flex(column, center , center );
+
+        .merch{
+            width: 1200px;
+            height: 345px;
+            //background-color: aqua;
+            @include flex(row, space-around , center );
+
+
+            .merch1{
+                width: 500px;
+                height: 300px;
+                //background-color: orange;
+                @include flex(row, center , center );
+
+                .tshirt{
+                    width: 300px;
+                    height: 280px;
+                    //background-color: red;
+                    @include flex(column, center , center );
+
+                    .picture18{
+                        width: 300px;
+                        height: 200px;
+                        //background-color: greenyellow;
+                        background-image: url(./img/futbolka.jpg);
+                        background-position: center;
+                        background-size: contain;
+                    }
+                    .info8{
+                        width: 300px;
+                        height: 80px;
+                        //background-color: rgb(47, 50, 255);
+                        @include flex(column, space-around , center );
+                    }
+                }
+            }
+
+             .merch2{
+                width: 500px;
+                height: 300px;
+                //background-color: rgb(204, 0, 255);
+                @include flex(row, center , center );
+
+                .cup{
+                    width: 300px;
+                    height: 280px;
+                    //background-color: red;
+                    @include flex(column, center , center );
+
+                    .picture19{
+                        width: 300px;
+                        height: 200px;
+                        //background-color: greenyellow;
+                        background-image: url(./img/кружка.jpg);
+                        background-position: center;
+                        background-size: contain;
+                    }
+                    .info9{
+                        width: 300px;
+                        height: 80px;
+                        //background-color: rgb(47, 50, 255);
+                        @include flex(column, space-around , center );
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+}

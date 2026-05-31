@@ -13,7 +13,7 @@ a {
   width: 100%;
   min-height: 100vh;
   background-color: black;
-  color: green;
+  color: #FFBF00;
   display: flex;
   flex-direction: column;
   font-family: "Orbitron", sans-serif;
@@ -22,11 +22,22 @@ a {
 .wrap .header {
   width: 100%;
   height: 20vh;
+  color: green;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   padding: 0 100px;
+}
+@media screen and (max-width: 860px) {
+  .wrap .header {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .wrap .header .nav {
+    display: none;
+  }
 }
 .wrap .header .nav .s1:hover {
   color: #FFBF00;
@@ -71,6 +82,11 @@ a {
 .wrap .header .nav span {
   margin: 0 20px;
 }
+@media screen and (max-width: 860px) {
+  .wrap .header .nav span {
+    margin: 0 10px;
+  }
+}
 .wrap .header .prapor {
   width: 19px;
   height: 14px;
@@ -97,6 +113,11 @@ a {
   background-size: cover;
   background-position: center;
 }
+@media screen and (max-width: 860px) {
+  .wrap .homepage {
+    flex-direction: column;
+  }
+}
 .wrap .homepage .box1 {
   width: 500px;
   height: 480px;
@@ -109,6 +130,12 @@ a {
   background-position: center;
   background-size: cover;
 }
+@media screen and (max-width: 650px) {
+  .wrap .homepage .box1 .picture {
+    width: 400px;
+    height: 380px;
+  }
+}
 .wrap .homepage .box2 {
   width: 500px;
   height: 360px;
@@ -117,8 +144,10 @@ a {
   justify-content: center;
   align-items: center;
 }
-.wrap .homepage .box2 .text1:hover {
-  color: #FFBF00;
+@media screen and (max-width: 680px) {
+  .wrap .homepage .box2 .text1 {
+    font-size: 9px;
+  }
 }
 .wrap .tournamnet {
   width: 100%;
@@ -131,6 +160,9 @@ a {
   background-size: cover;
   background-position: center;
 }
+.wrap .tournamnet .tt1 {
+  color: #FFBF00;
+}
 .wrap .tournamnet .box3 {
   width: 1400px;
   height: 700px;
@@ -138,6 +170,11 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 860px) {
+  .wrap .tournamnet .box3 {
+    flex-direction: column;
+  }
 }
 .wrap .tournamnet .box3 .tour1 {
   width: 650px;
@@ -149,12 +186,24 @@ a {
   border: solid purple;
   border-radius: 5px;
 }
+@media screen and (max-width: 860px) {
+  .wrap .tournamnet .box3 .tour1 {
+    width: 450px;
+    height: 380px;
+  }
+}
 .wrap .tournamnet .box3 .tour1 .picture2 {
   width: 520px;
   height: 395px;
   background-image: url(./img/img5.jpg);
   background-position: center;
   background-size: cover;
+}
+@media screen and (max-width: 860px) {
+  .wrap .tournamnet .box3 .tour1 .picture2 {
+    width: 320px;
+    height: 195px;
+  }
 }
 .wrap .tournamnet .box3 .tour1 .text2 {
   width: 500px;
@@ -164,8 +213,12 @@ a {
   justify-content: space-around;
   align-items: center;
 }
-.wrap .tournamnet .box3 .tour1 .text2 .t1:hover {
-  color: #FFBF00;
+@media screen and (max-width: 860px) {
+  .wrap .tournamnet .box3 .tour1 .text2 {
+    width: 300px;
+    height: 380px;
+    font-size: 12px;
+  }
 }
 .wrap .tournamnet .box3 .tour2 {
   width: 650px;
@@ -177,12 +230,24 @@ a {
   border: solid purple;
   border-radius: 5px;
 }
+@media screen and (max-width: 860px) {
+  .wrap .tournamnet .box3 .tour2 {
+    width: 450px;
+    height: 380px;
+  }
+}
 .wrap .tournamnet .box3 .tour2 .picture21 {
   width: 520px;
   height: 395px;
   background-image: url(./img/турнір\ 2.jpg);
   background-position: center;
   background-size: cover;
+}
+@media screen and (max-width: 860px) {
+  .wrap .tournamnet .box3 .tour2 .picture21 {
+    width: 320px;
+    height: 195px;
+  }
 }
 .wrap .tournamnet .box3 .tour2 .text21 {
   width: 500px;
@@ -192,8 +257,12 @@ a {
   justify-content: space-around;
   align-items: center;
 }
-.wrap .tournamnet .box3 .tour2 .text21 .t1:hover {
-  color: #FFBF00;
+@media screen and (max-width: 860px) {
+  .wrap .tournamnet .box3 .tour2 .text21 {
+    width: 300px;
+    height: 380px;
+    font-size: 12px;
+  }
 }
 .wrap .contacts {
   width: 100%;
@@ -206,6 +275,9 @@ a {
   background-size: cover;
   background-position: center;
 }
+.wrap .contacts .tt1 {
+  color: #FFBF00;
+}
 .wrap .contacts .t1:hover {
   color: #FFBF00;
 }
@@ -216,6 +288,11 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 860px) {
+  .wrap .contacts .box4 {
+    flex-direction: column;
+  }
 }
 .wrap .contacts .box4 .info {
   width: 600px;
@@ -229,6 +306,12 @@ a {
   width: 600px;
   height: 500px;
 }
+@media screen and (max-width: 700px) {
+  .wrap .contacts .box4 .maps {
+    width: 300px;
+    height: 200px;
+  }
+}
 .wrap .takepalce {
   width: 100%;
   min-height: 100vh;
@@ -239,6 +322,9 @@ a {
   background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
   background-size: cover;
   background-position: center;
+}
+.wrap .takepalce .tt1 {
+  color: #FFBF00;
 }
 .wrap .takepalce .box5 {
   width: 1000px;
@@ -259,6 +345,12 @@ a {
   justify-content: space-around;
   align-items: center;
 }
+@media screen and (max-width: 860px) {
+  .wrap .takepalce .box5 .tabel {
+    width: 470px;
+    height: 170px;
+  }
+}
 .wrap .takepalce .box5 .tabel .linestandart {
   width: 570px;
   height: 70px;
@@ -266,6 +358,12 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 860px) {
+  .wrap .takepalce .box5 .tabel .linestandart {
+    width: 470px;
+    height: 50px;
+  }
 }
 .wrap .takepalce .box5 .tabel .linestandart .bt1 .butn {
   width: 50px;
@@ -304,6 +402,12 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 860px) {
+  .wrap .takepalce .box5 .tabel .linepro {
+    width: 470px;
+    height: 50px;
+  }
 }
 .wrap .takepalce .box5 .tabel .linepro .bt6 .butn {
   width: 50px;
@@ -346,6 +450,9 @@ a {
   background-size: cover;
   background-position: center;
 }
+.wrap .news .tt1 {
+  color: #FFBF00;
+}
 .wrap .news .box5 {
   width: 1100px;
   height: 680px;
@@ -361,6 +468,11 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 860px) {
+  .wrap .news .box5 .line1 {
+    flex-direction: column;
+  }
 }
 .wrap .news .box5 .line1 .new1 {
   width: 300px;
@@ -486,6 +598,11 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 860px) {
+  .wrap .news .box5 .line2 {
+    flex-direction: column;
+  }
 }
 .wrap .news .box5 .line2 .new4 {
   width: 300px;
@@ -615,6 +732,10 @@ a {
   background-size: cover;
   background-position: center;
 }
+.wrap .courses .tt1 {
+  color: #FFBF00;
+  margin: 20px;
+}
 .wrap .courses .box6 {
   width: 900px;
   height: 700px;
@@ -630,6 +751,12 @@ a {
   background-position: center;
   background-size: cover;
 }
+@media screen and (max-width: 860px) {
+  .wrap .courses .box6 .picture9 {
+    width: 400px;
+    height: 400px;
+  }
+}
 .wrap .games {
   width: 100%;
   min-height: 100vh;
@@ -640,6 +767,9 @@ a {
   background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
   background-size: cover;
   background-position: center;
+}
+.wrap .games .tt1 {
+  color: #FFBF00;
 }
 .wrap .games .box7 {
   width: 1100px;
@@ -656,6 +786,11 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 860px) {
+  .wrap .games .box7 .gameline1 {
+    flex-direction: column;
+  }
 }
 .wrap .games .box7 .gameline1 .picture10 {
   width: 230px;
@@ -696,6 +831,11 @@ a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+@media screen and (max-width: 860px) {
+  .wrap .games .box7 .gameline2 {
+    flex-direction: column;
+  }
 }
 .wrap .games .box7 .gameline2 .picture14 {
   width: 230px;
@@ -740,6 +880,9 @@ a {
   background-size: cover;
   background-position: center;
 }
+.wrap .price .tt1 {
+  color: #FFBF00;
+}
 .wrap .price .box8 {
   width: 1300px;
   height: 350px;
@@ -780,6 +923,11 @@ a {
   justify-content: space-around;
   align-items: center;
 }
+@media screen and (max-width: 860px) {
+  .wrap .price .box9 .merch {
+    flex-direction: column;
+  }
+}
 .wrap .price .box9 .merch .merch1 {
   width: 500px;
   height: 300px;
@@ -818,6 +966,9 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.wrap .price .box9 .merch .merch2 .tt1 {
+  color: #FFBF00;
 }
 .wrap .price .box9 .merch .merch2 .cup {
   width: 300px;

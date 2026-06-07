@@ -958,6 +958,37 @@ a {
   justify-content: space-around;
   align-items: center;
 }
+.wrap .price .box9 .merch .merch3 {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .price .box9 .merch .merch3 .pcgame {
+  width: 300px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .price .box9 .merch .merch3 .pcgame .picture20 {
+  width: 300px;
+  height: 200px;
+  background-image: url(./img/відеогра\ диск.png);
+  background-position: center;
+  background-size: contain;
+}
+.wrap .price .box9 .merch .merch3 .pcgame .info10 {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 .wrap .price .box9 .merch .merch2 {
   width: 500px;
   height: 300px;

@@ -162,6 +162,14 @@
         //background-color: orange;
         margin: 0 20px;
 
+         @media screen and (max-width: 650px) {
+            display: flex;   
+            justify-content: center;
+               align-items: center;
+            }
+
+
+
         .picture{
             width: 500px;
             height: 480px;
@@ -170,9 +178,10 @@
             background-size: cover;
             
             @media screen and (max-width: 650px) {
-               width: 400px;
-               height: 380px;
+               width: 300px;
+               height: 280px;
             }
+           
 
         }
 
@@ -187,7 +196,8 @@
 
         .text1{
               @media screen and (max-width: 680px) {
-                font-size: 9px;
+                width: 400px;
+                font-size: 11px;
     }
         }
         
@@ -231,6 +241,10 @@
               width: 450px;
               height: 380px;
     }
+     @media screen and (max-width: 650px) {
+               width: 350px;
+               height: 280px;
+            }
 
         .picture2{
             width: 520px;
@@ -279,6 +293,10 @@
               width: 450px;
               height: 380px;
     }
+     @media screen and (max-width: 650px) {
+               width: 350px;
+               height: 280px;
+            }
 
              .picture21{
             width: 520px;

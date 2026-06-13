@@ -123,6 +123,13 @@ a {
   height: 480px;
   margin: 0 20px;
 }
+@media screen and (max-width: 650px) {
+  .wrap .homepage .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .wrap .homepage .box1 .picture {
   width: 500px;
   height: 480px;
@@ -132,8 +139,8 @@ a {
 }
 @media screen and (max-width: 650px) {
   .wrap .homepage .box1 .picture {
-    width: 400px;
-    height: 380px;
+    width: 300px;
+    height: 280px;
   }
 }
 .wrap .homepage .box2 {
@@ -146,7 +153,8 @@ a {
 }
 @media screen and (max-width: 680px) {
   .wrap .homepage .box2 .text1 {
-    font-size: 9px;
+    width: 400px;
+    font-size: 11px;
   }
 }
 .wrap .tournamnet {
@@ -192,6 +200,12 @@ a {
     height: 380px;
   }
 }
+@media screen and (max-width: 650px) {
+  .wrap .tournamnet .box3 .tour1 {
+    width: 350px;
+    height: 280px;
+  }
+}
 .wrap .tournamnet .box3 .tour1 .picture2 {
   width: 520px;
   height: 395px;
@@ -234,6 +248,12 @@ a {
   .wrap .tournamnet .box3 .tour2 {
     width: 450px;
     height: 380px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .wrap .tournamnet .box3 .tour2 {
+    width: 350px;
+    height: 280px;
   }
 }
 .wrap .tournamnet .box3 .tour2 .picture21 {

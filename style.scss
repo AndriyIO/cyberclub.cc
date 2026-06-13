@@ -196,7 +196,7 @@
 
         .text1{
               @media screen and (max-width: 680px) {
-                width: 400px;
+                width: 380px;
                 font-size: 11px;
     }
         }
@@ -275,6 +275,10 @@
             height: 380px; 
             font-size: 12px;
     }   
+     @media screen and (max-width: 650px) {
+               width: 300px;
+               height: 280px;
+            }
 
 
         }
@@ -326,6 +330,10 @@
               height: 380px;
               font-size: 12px;
     }
+     @media screen and (max-width: 650px) {
+               width: 300px;
+               height: 280px;
+            }
 
         }
             }
@@ -410,6 +418,10 @@
               width: 470px;
               height: 170px;
     }
+     @media screen and (max-width: 650px) {
+               width: 420px;
+               
+            }
 
             .linestandart{
                 width: 570px;
@@ -420,6 +432,10 @@
               width: 470px;
               height: 50px;
     }
+     @media screen and (max-width: 650px) {
+               width: 420px;
+               
+            }
 
                 .bt1{
                     .butn{
@@ -478,6 +494,10 @@
               width: 470px;
               height: 50px;
     }
+     @media screen and (max-width: 650px) {
+               width: 420px;
+               
+            }
 
                 .bt6{
                     .butn{

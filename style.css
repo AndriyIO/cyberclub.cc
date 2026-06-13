@@ -153,7 +153,7 @@ a {
 }
 @media screen and (max-width: 680px) {
   .wrap .homepage .box2 .text1 {
-    width: 380px;
+    width: 360px;
     font-size: 11px;
   }
 }
@@ -403,7 +403,7 @@ a {
 }
 @media screen and (max-width: 650px) {
   .wrap .takepalce .box5 .tabel .linestandart {
-    width: 420px;
+    width: 400px;
   }
 }
 .wrap .takepalce .box5 .tabel .linestandart .bt1 .butn {
@@ -452,7 +452,7 @@ a {
 }
 @media screen and (max-width: 650px) {
   .wrap .takepalce .box5 .tabel .linepro {
-    width: 420px;
+    width: 400px;
   }
 }
 .wrap .takepalce .box5 .tabel .linepro .bt6 .butn {
@@ -918,6 +918,7 @@ a {
 .wrap .price {
   width: 100%;
   min-height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -930,8 +931,9 @@ a {
   color: #FFBF00;
 }
 .wrap .price .box8 {
-  width: 1300px;
-  height: 350px;
+  width: 100%;
+  max-width: 1300px;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -954,8 +956,9 @@ a {
   border-bottom: 1px solid white;
 }
 .wrap .price .box9 {
-  width: 1300px;
-  height: 350px;
+  width: 100%;
+  max-width: 1300px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;

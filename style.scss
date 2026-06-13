@@ -196,7 +196,7 @@
 
         .text1{
               @media screen and (max-width: 680px) {
-                width: 380px;
+                width: 360px;
                 font-size: 11px;
     }
         }
@@ -433,7 +433,7 @@
               height: 50px;
     }
      @media screen and (max-width: 650px) {
-               width: 420px;
+               width: 400px;
                
             }
 
@@ -495,7 +495,7 @@
               height: 50px;
     }
      @media screen and (max-width: 650px) {
-               width: 420px;
+               width: 400px;
                
             }
 
@@ -949,6 +949,7 @@
 .price{
     width: 100%;
     min-height: 100vh;
+    height: auto;
     @include flex(column, center , center );
     background-image: url(./img/Digital_rain_animation_small_letters_clear.gif);
     background-size: cover;
@@ -959,8 +960,10 @@
     }
 
     .box8{
-        width: 1300px;
-        height: 350px;
+        width: 100%;
+        max-width: 1300px;
+        //height: 350px;
+        height: auto;
         //background-color: pink;
         @include flex(row, center , center );
 
@@ -991,8 +994,10 @@
     }
 
     .box9{
-        width: 1300px;
-        height: 350px;
+        width: 100%;
+        max-width: 1300px;
+        //height: 350px;
+        height: auto;
         //background-color: rgb(128, 105, 0);
         @include flex(column, center , center );
 

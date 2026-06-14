@@ -238,6 +238,7 @@ a {
   .wrap .tournamnet .box3 .tour1 .text2 {
     width: 300px;
     height: 280px;
+    font-size: 10px;
   }
 }
 .wrap .tournamnet .box3 .tour2 {
@@ -294,6 +295,7 @@ a {
   .wrap .tournamnet .box3 .tour2 .text21 {
     width: 300px;
     height: 280px;
+    font-size: 10px;
   }
 }
 .wrap .contacts {
@@ -384,7 +386,7 @@ a {
 }
 @media screen and (max-width: 650px) {
   .wrap .takepalce .box5 .tabel {
-    width: 420px;
+    width: 400px;
   }
 }
 .wrap .takepalce .box5 .tabel .linestandart {
@@ -799,8 +801,8 @@ a {
 }
 @media screen and (max-width: 860px) {
   .wrap .courses .box6 .picture9 {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
   }
 }
 .wrap .games {
@@ -933,7 +935,7 @@ a {
 .wrap .price .box8 {
   width: 100%;
   max-width: 1300px;
-  height: auto;
+  min-height: 350px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -958,15 +960,16 @@ a {
 .wrap .price .box9 {
   width: 100%;
   max-width: 1300px;
-  height: auto;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .wrap .price .box9 .merch {
-  width: 1200px;
-  height: 345px;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 345px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

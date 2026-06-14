@@ -454,7 +454,7 @@ a {
 }
 @media screen and (max-width: 650px) {
   .wrap .takepalce .box5 .tabel .linepro {
-    width: 400px;
+    width: 380px;
   }
 }
 .wrap .takepalce .box5 .tabel .linepro .bt6 .butn {
@@ -844,9 +844,9 @@ a {
   width: 230px;
   height: 280px;
   background-color: rebeccapurple;
-  background-image: url(https://myhotposters.com/cdn/shop/products/mL4466_1024x1024.jpg?v=1748533543);
+  background-image: url(./img/game8.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 .wrap .games .box7 .gameline1 .picture11 {
   width: 230px;

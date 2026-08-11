@@ -39,29 +39,56 @@ a {
     display: none;
   }
 }
+.wrap .header .nav .s1 {
+  color: green;
+}
 .wrap .header .nav .s1:hover {
   color: #FFBF00;
+}
+.wrap .header .nav .s2 {
+  color: green;
 }
 .wrap .header .nav .s2:hover {
   color: #FFBF00;
 }
+.wrap .header .nav .s3 {
+  color: green;
+}
 .wrap .header .nav .s3:hover {
   color: #FFBF00;
+}
+.wrap .header .nav .s4 {
+  color: green;
 }
 .wrap .header .nav .s4:hover {
   color: #FFBF00;
 }
+.wrap .header .nav .s5 {
+  color: green;
+}
 .wrap .header .nav .s5:hover {
   color: #FFBF00;
+}
+.wrap .header .nav .s6 {
+  color: green;
 }
 .wrap .header .nav .s6:hover {
   color: #FFBF00;
 }
+.wrap .header .nav .s7 {
+  color: green;
+}
 .wrap .header .nav .s7:hover {
   color: #FFBF00;
 }
+.wrap .header .nav .s8 {
+  color: green;
+}
 .wrap .header .nav .s8:hover {
   color: #FFBF00;
+}
+.wrap .header .nav .s9 {
+  color: green;
 }
 .wrap .header .nav .s9:hover {
   color: #FFBF00;

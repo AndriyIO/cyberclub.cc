@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script src="./main.js"></script>
     <audio autoplay loop>
         <source src="./audio/Rob Dougan - Clubbed To Death.mp3" type="audio/mpeg">
     </audio>
@@ -23,20 +24,24 @@
             <div class="name"><h3>Cyberclub Novoyavorivsk</h3></div>
         
             <div class="nav">
-                <span class="s1">Головна</span>
-                <span class="s2">Турніри</span>
-                <span class="s3">Контакти</span>
-                <span class="s4">Забронювати місце</span>
-                <span class="s5">Новини</span>
-                <span class="s6">Курси</span>
-                <span class="s7">Ігри</span>
-                <span class="s8">Ціни</span>
+                <span class="s1"><a class="s1" href="#" onclick="goToHomepage()"></a>Головна</span>
+                <span class="s2"><a class="s2" href="#" onclick="goToTournamnet()">Турніри</a></span>
+                <span class="s3"><a class="s3" href="#" onclick="goToContact()">Контакти</a></span>
+                <span class="s4"><a class="s4" href="#" onclick="goToTakeplace()">Забронювати місце</a></span>
+                <span class="s5"><a class="s5" href="#" onclick="goToNews()">Новини</a></span>
+                <span class="s6"><a class="s6" href="#" onclick="goToCourses()">Курси</a></span>
+                <span class="s7"><a class="s7" href="#" onclick="goToGames()">Ігри</a></span>
+                <span class="s8"><a class="s8" href="#" onclick="goToPrice()">Ціни</a></span>
                 <span class="s10">Вхід</span>
             </div>
             <div class="prapor"><div class="blue"></div><div class="yellow"></div></div>
         </div>
         <div class="homepage">
+            <section id="homepage">
+                <h1></h1>
+            </section>
             <div class="box1">
+                </section>
                 <div class="picture"></div>
             </div>
             <div class="box2">
@@ -48,7 +53,9 @@
         </div>
 
         <div class="tournamnet">
+            <section id="tournamnet">
             <h1 class="tt1">Турніри</h1>
+            </section>
             <div class="box3">
                 <div class="tour1">
                 <div class="picture2"></div>
@@ -84,7 +91,9 @@ Inferno, Anubis , Ancient, Mirage, Nuke, Overpass, Vertigo</p>
         </div>
 
         <div class="contacts">
+            <section id="contacts">
             <h1 class="tt1">Контакти</h1>
+            </section>
             <div class="box4">
                 <div class="info">
                     <h2>Кіберспортивний клуб "Cyberclub"</h2>
@@ -104,7 +113,9 @@ Inferno, Anubis , Ancient, Mirage, Nuke, Overpass, Vertigo</p>
         </div>
 
         <div class="takepalce">
+            <section id="takepalce">
             <h1 class="tt1">Місьця по зонах</h1>
+            </section>
             <div class="box5">
                 <div class="text3">STANDART ZONA</div>
                 <div class="tabel">
@@ -128,7 +139,9 @@ Inferno, Anubis , Ancient, Mirage, Nuke, Overpass, Vertigo</p>
         </div>
 
         <div class="news">
+            <section id="news">
             <h1 class="tt1">Новини</h1>
+            </section>
             <div class="box5">
                 <div class="line1">
                     <div class="new1">
@@ -200,14 +213,18 @@ Inferno, Anubis , Ancient, Mirage, Nuke, Overpass, Vertigo</p>
         </div>
 
         <div class="courses">
+            <section id="courses">
             <h1 class="tt1">Курси</h1>
+            </section>
             <div class="box6">
                 <div class="picture9"></div>
             </div>
         </div>
 
         <div class="games">
+            <section id="games">
             <h1 class="tt1">Ігри</h1>
+            </section>
             <div class="box7">
                 <div class="gameline1">
                     <div class="picture10"></div>
@@ -225,7 +242,9 @@ Inferno, Anubis , Ancient, Mirage, Nuke, Overpass, Vertigo</p>
         </div>
 
         <div class="price">
+            <section id="price">
             <h1 class="tt1">Ціни</h1>
+            </section>
             <div class="box8">
                 <div class="table-container">
                     <table>

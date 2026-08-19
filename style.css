@@ -114,6 +114,28 @@ a {
     margin: 0 10px;
   }
 }
+.wrap .header .login-window {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.wrap .header .login-window .login-box {
+  width: 400px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
 .wrap .header .prapor {
   width: 19px;
   height: 14px;
@@ -438,31 +460,31 @@ a {
 .wrap .takepalce .box5 .tabel .linestandart .bt1 .butn {
   width: 50px;
   height: 50px;
+  background-color: white;
   border-radius: 5px;
-  color: #f35308;
 }
 .wrap .takepalce .box5 .tabel .linestandart .bt2 .butn {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
 }
 .wrap .takepalce .box5 .tabel .linestandart .bt3 .butn {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
 }
 .wrap .takepalce .box5 .tabel .linestandart .bt4 .butn {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
 }
 .wrap .takepalce .box5 .tabel .linestandart .bt5 .butn {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
 }
 .wrap .takepalce .box5 .tabel .linepro {
@@ -487,32 +509,106 @@ a {
 .wrap .takepalce .box5 .tabel .linepro .bt6 .butn {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
 }
 .wrap .takepalce .box5 .tabel .linepro .bt7 .butn {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
 }
 .wrap .takepalce .box5 .tabel .linepro .bt8 .butn {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
 }
 .wrap .takepalce .box5 .tabel .linepro .bt9 .butn {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
 }
 .wrap .takepalce .box5 .tabel .linepro .bt10 .butn {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: white;
   border-radius: 5px;
+}
+.wrap .takepalce .box5 .butn.booked {
+  background-color: red;
+  cursor: not-allowed;
+}
+.wrap .takepalce .box5 .butn.booked {
+  background-color: red;
+}
+.wrap .takepalce {
+  /* ========================= */
+  /* ВІКНО БРОНЮВАННЯ */
+  /* ========================= */
+}
+.wrap .takepalce .booking-window {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.wrap .takepalce .booking-box {
+  position: relative;
+  width: 450px;
+  min-height: 500px;
+  padding: 30px;
+  background-color: white;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.wrap .takepalce .booking-box h2 {
+  margin: 0;
+}
+.wrap .takepalce .booking-box input[type=text],
+.wrap .takepalce .booking-box input[type=date] {
+  width: 280px;
+  height: 40px;
+  border: 3px solid black;
+  padding: 5px;
+}
+.wrap .takepalce .payment {
+  display: flex;
+  gap: 30px;
+}
+.wrap .takepalce .pay-button {
+  width: 170px;
+  height: 45px;
+  margin-top: 20px;
+  background-color: white;
+  border: 3px solid black;
+  font-size: 18px;
+  cursor: pointer;
+}
+.wrap .takepalce .pay-button:hover {
+  background-color: black;
+  color: white;
+}
+.wrap .takepalce .close-booking {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border: 3px solid black;
+  cursor: pointer;
+  font-size: 18px;
 }
 .wrap .news {
   width: 100%;

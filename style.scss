@@ -130,6 +130,41 @@
         margin: 0 10px;
     }
 }
+//Вікно логін
+.login-window {
+    display: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+
+    .login-box {
+    width: 400px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+}
+
+
 
 .prapor{
     width: 19px;
@@ -409,6 +444,7 @@
     background-size: cover;
     background-position: center;
 
+
     .tt1{
         color:#FFBF00;
     }
@@ -454,9 +490,9 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        //background-color: red;
+                        background-color: white;
                         border-radius: 5px;
-                        color: #f35308;
+                        
                         
                     }
                 }
@@ -464,7 +500,7 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        background-color: red;
+                        background-color: white;
                         border-radius: 5px;
                     }
                 }
@@ -472,7 +508,7 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        background-color: red;
+                        background-color: white;
                         border-radius: 5px;
                     }
                 }
@@ -481,7 +517,7 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        background-color: red;
+                        background-color: white;
                         border-radius: 5px;
                     }
                 }
@@ -490,7 +526,7 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        background-color: red;
+                        background-color: white;
                         border-radius: 5px;
                     }
                 }
@@ -516,7 +552,7 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        background-color: red;
+                        background-color: white;
                         border-radius: 5px;
                     }
                 }
@@ -524,7 +560,7 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        background-color: red;
+                        background-color: white;
                         border-radius: 5px;
                     }
                 }
@@ -532,7 +568,7 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        background-color: red;
+                        background-color: white;
                         border-radius: 5px;
                     }
                 }
@@ -541,7 +577,7 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        background-color: red;
+                        background-color: white;
                         border-radius: 5px;
                     }
                 }
@@ -550,13 +586,135 @@
                     .butn{
                         width: 50px;
                         height: 50px;
-                        background-color: red;
+                        background-color: white;
                         border-radius: 5px;
                     }
                 }
             }
         }
+
+        .butn.booked {
+    background-color: red;
+    cursor: not-allowed;
+}
+
+.butn.booked {
+    background-color: red;
+}
+
+
     }
+    
+
+    /* ========================= */
+/* ВІКНО БРОНЮВАННЯ */
+/* ========================= */
+
+.booking-window {
+    display: none;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.75);
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+}
+
+
+.booking-box {
+    position: relative;
+
+    width: 450px;
+    min-height: 500px;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border: 4px solid black;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 15px;
+}
+
+
+.booking-box h2 {
+    margin: 0;
+}
+
+
+.booking-box input[type="text"],
+.booking-box input[type="date"] {
+
+    width: 280px;
+    height: 40px;
+
+    border: 3px solid black;
+
+    padding: 5px;
+}
+
+
+.payment {
+    display: flex;
+
+    gap: 30px;
+}
+
+
+.pay-button {
+    width: 170px;
+    height: 45px;
+
+    margin-top: 20px;
+
+    background-color: white;
+
+    border: 3px solid black;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+
+.pay-button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.close-booking {
+
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+    width: 35px;
+    height: 35px;
+
+    background-color: white;
+
+    border: 3px solid black;
+
+    cursor: pointer;
+
+    font-size: 18px;
+}
 
 }
 

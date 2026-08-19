@@ -32,10 +32,30 @@
                 <span class="s6"><a class="s6" href="#" onclick="goToCourses()">Курси</a></span>
                 <span class="s7"><a class="s7" href="#" onclick="goToGames()">Ігри</a></span>
                 <span class="s8"><a class="s8" href="#" onclick="goToPrice()">Ціни</a></span>
-                <span class="s10">Вхід</span>
+                <span class="s10" onclick="openLogin()">Вхід</span>
             </div>
             <div class="prapor"><div class="blue"></div><div class="yellow"></div></div>
         </div>
+        <!-- //Вікно входу -->
+       <div class="login-window" id="loginWindow">
+
+    <div class="login-box" id="loginbox">
+
+        <h2>Вхід у систему</h2>
+
+        <input type="text" id="login" placeholder="Логін">
+
+        <input type="password" id="password" placeholder="Пароль">
+
+        <button onclick="loginUser()">Увійти</button>
+
+        <button onclick="closeLogin()">Закрити</button>
+
+    </div>
+
+</div>
+
+
         <div class="homepage">
             <section id="homepage">
                 <h1></h1>
@@ -136,6 +156,62 @@ Inferno, Anubis , Ancient, Mirage, Nuke, Overpass, Vertigo</p>
                 </div>
                 <div class="text4">PRO ZONA</div>
             </div>
+            
+            <!-- Вікно бронювання -->
+
+<div class="booking-window" id="bookingWindow">
+
+    <div class="booking-box">
+
+        <button class="close-booking" onclick="closeBooking()">✕</button>
+
+        <h2>Бронювання місця</h2>
+
+        <p>
+            Вибране місце:
+            <span id="selectedSeat"></span>
+        </p>
+
+        <label>Логін</label>
+
+        <input
+            type="text"
+            id="userLogin"
+            placeholder="Введіть логін"
+        >
+
+        <h3>Дата</h3>
+
+        <input
+            type="date"
+            id="bookingDate"
+        >
+
+        <h3>Оплата</h3>
+
+        <div class="payment">
+
+            <label>
+                <input type="radio" name="payment" value="card">
+                Картка
+            </label>
+
+            <label>
+                <input type="radio" name="payment" value="cash">
+                Готівка
+            </label>
+
+        </div>
+
+        <button
+            class="pay-button"
+            onclick="bookSeat()">
+            Оплатити
+        </button>
+
+    </div>
+
+</div>
         </div>
 
         <div class="news">

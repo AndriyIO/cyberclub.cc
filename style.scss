@@ -207,6 +207,7 @@
         height: 480px;
         //background-color: orange;
         margin: 0 20px;
+         @include flex(row, center ,center );
 
          @media screen and (max-width: 650px) {
             display: flex;   

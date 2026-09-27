@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     closeLogin();
 });
 
+
+
+
 function goToTournamnet() {
     document.getElementById("tournamnet").scrollIntoView({
         behavior: "smooth"

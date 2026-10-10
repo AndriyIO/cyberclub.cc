@@ -90,7 +90,51 @@ function loginUser() {
 
 }
 
-// ВІКНО ДЛЯ БРОНЮВАННЯ
+ Bt10.onclick = function(){
+ 
+    Bt10.style.backgroundColor = "red";
+ }
+
+ 
+ Bt9.onclick = function(){
+    Bt9.style.backgroundColor = "red";
+ }
+
+ 
+ Bt8.onclick = function(){
+    Bt8.style.backgroundColor = "red";
+ }
+
+ 
+ Bt7.onclick = function(){
+   Bt7.style.backgroundColor = "red";
+ }
+
+ Bt6.onclick = function(){
+   Bt6.style.backgroundColor = "red";
+ }
+
+ Bt5.onclick = function(){
+   Bt5.style.backgroundColor = "red";
+ }
+
+ Bt4.onclick = function(){
+   Bt4.style.backgroundColor = "red";
+ }
+
+ Bt3.onclick = function(){
+   Bt3.style.backgroundColor = "red";
+ }
+
+ Bt2.onclick = function(){
+   Bt2.style.backgroundColor = "red";
+ }
+
+ Bt1.onclick = function(){
+   Bt1.style.backgroundColor = "red";
+ }
+
+
 let selectedSeat = null;
 
 
@@ -132,13 +176,12 @@ seats.forEach(function(seat) {
 
 });
 
-// зАКРИТТЯ
+
 function closeBooking() {
 
     document.getElementById("bookingWindow").style.display = "none";
 
 }
-
 
 function bookSeat() {
 

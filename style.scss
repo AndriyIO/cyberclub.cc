@@ -594,20 +594,13 @@
             }
         }
 
-        .butn.booked {
-    background-color: red;
-    cursor: not-allowed;
+      
 }
 
-.butn.booked {
-    background-color: red;
 }
 
-
-    }
-    
-
-    /* ========================= */
+//
+/* ========================= */
 /* ВІКНО БРОНЮВАННЯ */
 /* ========================= */
 
@@ -639,7 +632,7 @@
 
     padding: 30px;
 
-    background-color: white;
+    background-color: rgb(172, 167, 167);
 
     border: 4px solid black;
 
@@ -717,7 +710,26 @@
     font-size: 18px;
 }
 
+.butn.booked {
+    background-color: red;
+    cursor: not-allowed;
 }
+
+.butn {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.butn.booked {
+    background-color: red;
+}
+
+
+
+
+// end bron vikna
+
 
 .news{
     width: 100%;
